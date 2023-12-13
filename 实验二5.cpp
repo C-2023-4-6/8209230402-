@@ -8,7 +8,7 @@ int main()
 	getline(cin, a);
 	for (int i = 0; i < a.size(); i++)
 	{
-		if (('a'<a[i] && a[i] <'z')||('A' < a[i] && a[i] < 'Z'))
+		if (('a'<a[i] && a[i] <'z') || ('A' < a[i] && a[i] < 'Z'))
 		{
 			b = b + 1;
 		}
